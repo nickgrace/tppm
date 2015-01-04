@@ -1,0 +1,149 @@
+---
+---
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title }}</title>
+	<meta name="keywords" content="{{ site.keywords }}">
+	<meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="css/960.css">
+  <link rel="stylesheet" href="css/styles.css">
+  {% if site.favicon %}<link rel="shortcut icon" href="{{ site.favicon }}" type="image/x-icon">{% endif %}
+	{% if site.touch_icon %}<link rel="apple-touch-icon" href="{{ site.touch_icon }}">{% endif %}
+</head>
+<body>
+
+  <header>
+  <div id="top">
+    <div class="header-top"><a href="http://www.hhs.gov"><img src="img/usdlogo.png" alt="U.S. Department of Health and Human Services"/></a><a href="http://www.acf.hhs.gov"><img src="img/acflogo.png" alt="Administration for Children & Families"/></a><a href="http://www.acf.hhs.gov/programs/fysb"><img src="img/fysblog.png" alt="Family and Youth Services Bureau"></a></div>
+  </div>
+  <nav class="navigation">
+    <div class="container_16"><a class="searchbychar" href="#facts">Get the Facts</a>
+    <a class="searchbychar" href="#involved">Get Involved</a>
+    <a class="searchbychar" href="#success">Share Your Success</a></div>
+  </nav>
+  <div class="hero" id="intro">
+    <div class="container_16 container">
+      <div class="grid_8">
+        <h1>National Teen Pregnancy Prevention Month</h1>
+        {% capture introtext %} {% include intro.md %} {% endcapture %}
+        {{ introtext | markdownify }}
+      </div>
+      <div class="grid_8"><img src="img/intro_image.png" alt="TEEN Pregnancy Prevention Month PREP Teens for the Future"/></div>
+    </div>
+  </div>
+  </header>
+
+  <section>
+  <div class="titlebar" id="facts">
+    <div class="container_16">
+      <h2>Get the Facts</h2>
+    </div>
+  </div>
+
+  <div id="team">
+    <div class="container_16 container">
+      <div class="grid_9 container">
+        {% capture factstext %} {% include facts.md %} {% endcapture %}
+        {{ factstext | markdownify }}
+      </div>
+      <div class="grid_7 container"><a href="pdf/ncfy_tppm_infographic_2014.pdf?utm_source=tppmsite&utm_medium=image&utm_campaign=infographic" target="_blank"><img src="img/infograph.png" alt="Keeping the Momentum: Together We Can Keep Teen Birth Rates Falling Infographic"/><br>Download Infographic (PDF, 365k)</a><br><a href="pdf/ncfy_tppm_infographic_2014-text.pdf?utm_source=tppmsite&utm_medium=image&utm_campaign=infographic" target="_blank">Text Only Version (PDF, 85k)</a></div>
+    </div>
+  </div>
+
+  <div class="actionbar" id="action">
+    <div class="container_16 container">
+      {% capture factsbottomtext %} {% include facts_bottom.md %} {% endcapture %}
+        {{ factsbottomtext | markdownify }}
+  </div>
+  </div>
+  </section>
+
+  <section>
+  <div class="titlebar" id="involved">
+    <div class="container_16">
+      <h2>Get Involved</h2>
+    </div>
+  </div>
+
+  <div id="team">
+    <div class="container_16 container">
+      <div class="grid_16 container involved-intro">
+        {% capture involvedintrotext %} {% include involved_intro.md %} {% endcapture %}
+        {{ involvedintrotext | markdownify }}
+      </div>
+      <div class="grid_12">
+          <div class="grid_3 alpha">
+            <img src="img/logo-sm.png" alt="">
+          </div>
+          <div class="grid_9 omega">
+            <h3 class="getinvolvedhdr">Share Graphics</h3>
+            {% capture involvedsharetext %} {% include involved_share.md %} {% endcapture %}
+        {{ involvedsharetext | markdownify }}
+          </div>
+          <div class="grid_3 alpha" style="margin-top: 30px;">
+            <img src="img/icon-resources.png" alt="">
+          </div>
+          <div class="grid_9 omega" style="margin-top: 30px;">
+            <h3 class="getinvolvedhdr">Find Resources</h3>
+            {% capture involvedresourcestext %} {% include involved_resources.md %} {% endcapture %}
+        {{ involvedresourcestext | markdownify }}
+          </div>
+          <div class="grid_3 alpha" style="margin-top: 30px;">&nbsp;</div>
+          <div class="grid_9 omega" style="margin-top: 30px;">
+            <h3 class="getinvolvedhdr">Events</h3>
+            <p></p>
+          </div>
+          {% capture involvedeventstext %} {% include involved_events.md %} {% endcapture %}
+        {{ involvedeventstext | markdownify }}
+      </div>
+
+      <div class="grid_4 social-media">
+        <h3 class="getinvolvedhdr">Use Social Media</h3>
+        {% capture involvedsocialtext %} {% include involved_social.md %} {% endcapture %}
+        {{ involvedsocialtext | markdownify }}
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section>
+  <div class="titlebar" id="success">
+    <div class="container_16">
+      <h2>Share Your Success!</h2>
+    </div>
+  </div>
+
+  <div class="actionbar" id="action">
+    <div class="container_16 container">
+      {% capture shareintrotext %} {% include share_intro.md %} {% endcapture %}
+        {{ shareintrotext | markdownify }}
+  </div>
+  </div>
+
+  <div id="article">
+    <div class="container_16 container">
+      <div class="grid_10">
+        <h2>FYSB-Sponsored Events</h2>
+        {% capture shareeventstext %} {% include share_events.md %} {% endcapture %}
+        {{ shareeventstext | markdownify }}
+      </div>
+      <div class="grid_6"><img src="img/fylogo.png" alt=""></div>
+    </div>
+  </div>
+  </section>
+
+<footer>
+  <div class='container_16'>
+    <div class="grid_16">
+      <p>&nbsp;</p>
+    </div>
+  </div>
+</footer>
+
+  {% include analytics.html %}
+
+</body>
+</html>

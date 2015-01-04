@@ -1,0 +1,3 @@
+<p>Show your support by using these graphics on all of your social media platforms.</p>
+<p><span style="color:#ec916a; font-size: 20px;">•</span> <a href="img/tppm-logo.jpg" target="_blank">Teen Pregnancy Prevention Month logo</a></br>
+<span style="color:#ec916a; font-size: 20px;">•</span>  Keeping Up the Momentum: Together We Can Keep Teen Birth <br>&nbsp;&nbsp;&nbsp;Rates Falling (<a href="ncfy_tppm_infographic_2014.pdf?utm_source=tppmsite&utm_medium=image&utm_campaign=infographic" target="_blank">Infographic PDF, 365k</a>) (<a href="ncfy_tppm_infographic_2014-text.pdf?utm_source=tppmsite&utm_medium=image&utm_campaign=infographic" target="_blank">text-only version PDF, 85k</a>)</p>

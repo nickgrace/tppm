@@ -1,0 +1,195 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	margin: 0;
+}
+
+a:link {
+	border: none;
+}
+
+a img {
+	border: none;
+}
+
+a, a:visited { color: #326c92; text-decoration: none;  outline: 0; border:0; }
+a:hover, a:focus { color: #000; }
+p a, p a:visited { line-height: inherit; }
+
+ul, ol { margin-bottom: 20px; }
+	ul { list-style: none outside; }
+	ol { list-style: decimal; }
+	ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
+	ul.square { list-style: square outside; }
+	ul.circle { list-style: circle outside; }
+	ul.disc { list-style: disc outside; }
+	ul ul, ul ol,
+	ol ol, ol ul { margin: 4px 0 5px 30px; font-size: 90%;  }
+	ul ul li, ul ol li,
+	ol ol li, ol ul li { margin-bottom: 6px; }
+	li { line-height: 18px; margin-bottom: 12px; }
+	ul.large li { line-height: 21px; }
+	li p { line-height: 21px; }
+
+h1 {
+	font-size: 35px;
+	font-weight: 300;
+	color: #254b64;
+	line-height: 45px;
+	margin-bottom: 14px;
+}
+
+h3 {
+	font-size: 20px;
+	line-height: 40px;
+	margin-bottom: 10px;
+	color: #366c92;
+	font-weight: bold;
+}
+
+p {
+	margin: 0 0 20px 0;
+	font-size: 15px;
+	font-weight: 350;
+	line-height: 29px;
+}
+
+.header-top {
+	background-color: #d0c4ad;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+}
+
+.navigation {
+	background-color: #254b64;
+	float: left;
+	margin: 0 auto;
+	padding: 20px 0;
+	text-align: center;
+	width: 100%;
+}
+
+.navigation a {
+	color: #fff;
+	float: left;
+	font-size: 14px;
+	text-decoration: none;
+	padding: 10px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.navigation a:hover {
+	border-bottom: 3px solid white;
+}
+
+.container {
+	padding: 30px 0;
+}
+
+#intro {
+	background: #e8e5dc;
+	width: 100%;
+	padding: 40px 0 0 0;
+}
+
+.hero-text {
+	font-size: 16px;
+	color: #000;
+	line-height: 25px;
+}
+
+.titlebar {
+	background-color: #346b91;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.titlebar h2 {
+	color: white;
+	font-size: 35px;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height: 50px;
+	margin: 10px;
+}
+
+#team {
+	background-color: white;
+}
+
+.actionbar {
+	width: 100%;
+	background: #5faca4;
+}
+
+.actionbar p {
+	color: white;
+	font-size: 22px;
+	margin-bottom: 0;
+	text-align: center;
+	font-weight: 300;
+	line-height: 35px;
+}
+
+.involved-intro {
+	width: 100%;
+	text-align: center;
+}
+
+.getinvolvedhdr {
+	font-size: 28px;
+	line-height: 30px;
+	margin-right: 0;
+	margin-top: 0;
+	font-weight: 200;
+	color: #181818;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.social-media ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.twitter {
+	background: url('../images/li-twitter.png') no-repeat left top;
+	padding-left: 40px;
+}
+
+.fb {
+	background: url('../images/li-fb.png') no-repeat left top;
+	padding-left: 40px;
+}
+
+#article {
+	background: #d4eaf7;
+	width: 100%;
+	text-align: left;
+}
+
+footer {
+	background: #333;
+	color: #fff;
+	text-align: center;
+}
+
+#article h2 {
+	font-size: 28px;
+	color: #346b91;
+	line-height: 30px;
+	margin-bottom: 30px;
+}
+

@@ -1,0 +1,2 @@
+<p>To learn more about how State Personal Responsibility Education Program (PREP) grantees are addressing teen pregnancy and adulthood preparation subjects, read <a href="http://www.acf.hhs.gov/sites/default/files/opre/prep_dis_brief_032814.pdf" style="color: #254B64;">"How States are Implementing Evidence-Based Teen Pregnancy Prevention Programs Through the Personal Responsibility Education Program" (PDF, 756KB)</a>.</p>
+<p>Now that you have the facts, read on to get involved.</p>
