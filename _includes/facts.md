@@ -4,7 +4,7 @@
 <h3>Did you know...</h3>
 
 <p>Youth are <strong><a href="http://www.findyouthinfo.gov/youth-topics/teen-pregnancy-prevention/risk-and-protective-factors">less likely to get pregnant or get someone pregnant</a> </strong>if they have:</p>
-<p><span style="color:#ec916a; font-size: 20px;">•</span> Open communication with adults about using contraception. </br>
+<p><span style="color:#ec916a; font-size: 20px;">•</span> Open communication with adults about using contraception.</br>
 <span style="color:#ec916a; font-size: 20px;">•</span>  Supportive parents. </br>
 <span style="color:#ec916a; font-size: 20px;">•</span>  Healthy family dynamics.</br>
 <span style="color:#ec916a; font-size: 20px;">•</span>  Healthy relationships with peers. </br>
